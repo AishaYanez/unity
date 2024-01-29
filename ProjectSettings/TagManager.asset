@@ -5,11 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - PickUp
+  - walls
+  - End
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - walls
   - Water
   - UI
   - 

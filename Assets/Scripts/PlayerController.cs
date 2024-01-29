@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            if (Mathf.Abs(rb.velocity.y) < 0.001f) // Asegura que el jugador esté en el suelo antes de saltar
+            if (Mathf.Abs(rb.velocity.y) < 0.001f)
             {
                 rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             }
